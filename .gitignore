@@ -11,6 +11,9 @@ build/
 venv/
 env/
 
+# Tool caches
+.ruff_cache/
+
 # IDE
 .vscode/
 .idea/
@@ -23,6 +26,6 @@ Thumbs.db
 *.mp4
 *.mkv
 *.webm
+*.part
 
-# Playwright browsers
-ms-playwright/
+
